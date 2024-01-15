@@ -1,0 +1,31 @@
+h1 {
+  background-color: #f7f7f7;
+  font-size: 20px;
+  text-align: center;
+}
+body {
+  border: 2px solid black;
+}
+strong {
+  font-size: 15px;
+  font-weight: bold;
+}
+article p:nth-child(4) {
+  color: #666;
+}
+a:link {
+  color: #111111;
+}
+a:visited {
+  color: #111111;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  background-color: red;
+}
+button:hover {
+  background-color: black;
+  color: #f7f7f7;
+}
