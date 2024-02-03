@@ -4,11 +4,27 @@
 }
 .container {
   width: 825px;
-  margin: 0 auto;
+  margin: 20px auto;
   border: 5px solid #000;
+}
+article {
+  position: relative;
 }
 h1 {
   background-color: #f7f7f7;
+  padding: 10px;
+  padding-left: 140px;
+}
+article p:nth-child(2) {
+  background-color: red;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+article p:nth-child(5) {
+  margin-bottom: 15px;
 }
 button {
   width: 100%;
@@ -20,4 +36,48 @@ ul {
 button:hover {
   background-color: #000;
   color: #f7f7f7;
+}
+article p:nth-child(12) {
+  margin-bottom: 10px;
+}
+li {
+  margin-bottom: 10px;
+}
+article div {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+article div:nth-child(7) {
+  background-color: red;
+}
+article div:nth-child(8) {
+  background-color: pink;
+}
+article div:nth-child(9) {
+  background-color: green;
+}
+article div:nth-child(10) {
+  background-color: orangered;
+}
+article div:nth-child(11) {
+  background-color: sienna;
+}
+
+a:link {
+  color: #000;
+  font-size: 15 px;
+  display: block;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: blue;
 }
